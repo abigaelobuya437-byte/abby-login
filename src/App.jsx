@@ -4,7 +4,8 @@ function App() {
   
 
   return (
-    
+    <div>
+      
       <div className="min-h-screen flex items-center bg-gradient-to-r from-purple-500 to-pink-500 p-6">
      {/*Left section*/}
       <div className="w-full max-w-5*1 bg-white rounded-2*1 shadow-2*1 overflow-hidden flex">
@@ -52,24 +53,17 @@ function App() {
             </button>
           </div>
 
-
-
-
         </form>
 
 
-
       </div>
 
 
-
-
-
-
-
       </div>
+      
     </div>
-  
+  <p className="text-black font-semibold text-center">Designed by Gael</p>
+    </div>
   )
 }
 
